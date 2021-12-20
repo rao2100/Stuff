@@ -1,6 +1,9 @@
 # COLOURS! YAAAY!
 export TERM=xterm-256color
 PS1="-> "
+PS1="\w-> " # Setting PS1 to show full path
+# ~/work/esp/esp-idf/examples/bluetooth/nimble$ 
+export PROMPT_DIRTRIM=4 # Trimming path to 4 directories
 
 # export black="\[\033[0;38;5;0m\]"
 # export red="\[\033[0;38;5;1m\]"
