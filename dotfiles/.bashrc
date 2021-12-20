@@ -14,12 +14,12 @@ export http_proxy=http://proxy.shared-services.local:3128
 export https_proxy=http://proxy.shared-services.local:3128
 export no_proxy=localhost,127.0.0.1,odfhost1,artifactory.openet.com,bitbucket.openet.com,.openet.com,dependencies.openet.com,*.openet.com
 
-source .shells/defaults
-source .shells/functions
-source .shells/exports
-source .shells/alias
-source .shells/prompt   # Fancy prompt with time and current working dir
-source .shells/git      # Conveniences - Display current branch etc
+source ~/.shells/defaults
+source ~/.shells/functions
+source ~/.shells/exports
+source ~/.shells/alias
+source ~/.shells/prompt   # Fancy prompt with time and current working dir
+source ~/.shells/git      # Conveniences - Display current branch etc
 
 echo "Hardware Information:"
 sensors  # Needs: 'sudo apt-get install lm-sensors'
