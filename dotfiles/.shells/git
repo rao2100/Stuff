@@ -1,7 +1,7 @@
 #!/bin/bash 
 
-source /etc/bash_completion.d/git 
-source /etc/bash_completion.d/git5 
+# source /etc/bash_completion.d/git 
+# source /etc/bash_completion.d/git5 
 
 # Very useful for stash handling
 function show-stash() 
@@ -19,7 +19,20 @@ function drop-stash()
     git stash drop stash@{$1};
 }
 
-alias ga='git add'
+# Functions to aid git workflow
+function ga(){
+    git-add $1
+}
+
+function gc(){
+    git commit -m "$*"
+}
+
+function revert(){
+    git reset --hard $1
+}
+
+# alias ga='git add'
 alias gb='git branch' 
 alias gd='git diff' 
 alias gdc='git diff --cached' 

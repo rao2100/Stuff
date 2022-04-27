@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+#k8s
+alias kg='kubectl get'
+alias kd='kubectl describe'
+alias kl='kubectl logs'
+alias kcc='kubectl config set-context --current --namespace=cgf'
+
+#helm
+alias hl='helm ls'
+alias hu='helm uninstall'
+

@@ -1,0 +1,4 @@
+# proxy
+export http_proxy=http://proxy.shared-services.local:3128
+export https_proxy=http://proxy.shared-services.local:3128
+export no_proxy=localhost,127.0.0.1,odfhost1,192.168.49.2,artifactory.openet.com,bitbucket.openet.com,.openet.com,dependencies.openet.com,*.openet.com

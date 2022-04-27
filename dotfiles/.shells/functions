@@ -1,16 +1,3 @@
-# Functions to aid git workflow
-function ga(){
-    git-add $1
-}
-
-function gc(){
-    git commit -m "$*"
-}
-
-function revert(){
-    git reset --hard $1
-}
-
 # Simplify apt-get search and install
 function show ()
 {
