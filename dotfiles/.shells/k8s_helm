@@ -1,12 +1,22 @@
 #!/bin/bash 
 
 #k8s
+alias k='kubectl'
 alias kg='kubectl get'
 alias kd='kubectl describe'
 alias kl='kubectl logs'
-alias kcc='kubectl config set-context --current --namespace=cgf'
+
 
 #helm
 alias hl='helm ls'
 alias hu='helm uninstall'
 
+# # set env
+# alias kc-odf1='cp ~/.kube/dev-lab-odf-1.yaml ~/.kube/config'
+# alias kc-odf2='cp ~/.kube/dev-lab-odf-2.yaml ~/.kube/config'
+
+# use context
+alias kc-cgf='kubectl config set-context --current --namespace=cgf'
+alias kc='kubectl config'
+alias kcgc='kubectl config get-contexts'
+alias kcuc='kubectl config use-context'

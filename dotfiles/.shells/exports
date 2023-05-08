@@ -1,4 +1,8 @@
 # proxy
-export http_proxy=http://proxy.shared-services.local:3128
-export https_proxy=http://proxy.shared-services.local:3128
+#export http_proxy=http://proxy.shared-services.local:3128
+#export https_proxy=http://proxy.shared-services.local:3128
 export no_proxy=localhost,127.0.0.1,odfhost1,192.168.49.2,artifactory.openet.com,bitbucket.openet.com,.openet.com,dependencies.openet.com,*.openet.com
+#export no_proxy=openet.com,odfhost1,localhost
+export http_proxy=genproxy.corp.amdocs.com:8080
+export https_proxy=genproxy.corp.amdocs.com:8080
+export KUBECONFIG=~/.kube/config:~/.kube/dev-lab-odf-1.yaml:~/.kube/dev-lab-odf-2.yaml:~/.kube/odf-perf-cluster-1.yaml

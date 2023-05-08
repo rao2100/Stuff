@@ -1,3 +1,7 @@
+
+alias curl="curl --insecure"
+alias python="python3.6"
+
 # Cute shell shortcuts
 alias ls='ls --sort=extension --color=auto'
 alias la='ls -lah'

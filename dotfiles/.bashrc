@@ -22,3 +22,12 @@ source ~/.shells/k8s_helm
 #lsscsi
 #free -mh
 
+# # Add JBang to environment
+# alias j!=jbang
+# export PATH="$HOME/.jbang/bin:$PATH"
+
+# # Generated for envman. Do not edit.
+# [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+
+export PATH=/home/subbarat/.jbang/bin:/opt/maven/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/subbarat/.local/bin:/home/subbarat/bin
