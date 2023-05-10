@@ -30,4 +30,6 @@ source ~/.shells/k8s_helm
 # [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 
-export PATH=/home/subbarat/.jbang/bin:/opt/maven/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/subbarat/.local/bin:/home/subbarat/bin
+export PATH=/home/subbarat/.jbang/bin:/opt/maven/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/subbarat/.local/bin:/home/subbarat/bin:/usr/local/go/bin:/home/subbarat/go/bin
+export M2_HOME=/opt/maven/
+export GOPATH=/home/subbarat/go/
